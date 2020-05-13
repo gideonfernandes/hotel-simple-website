@@ -1,0 +1,179 @@
+/* Reset and Global Styling */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.7em;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 20px;
+	overflow: auto;
+}
+
+.btn {
+	width: 190px;
+	height: 50px;
+	display: block; 
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.1em;
+	padding: 12px 10px 10px 10px;
+	cursor: pointer;
+}
+
+/* Home Page Styling */
+#navbar {
+	background: #353535;
+	overflow: auto;
+}
+
+#navbar #logo {
+	float: left;
+	color: white;
+	padding-top: 14px;
+}
+
+#navbar ul {
+	float: right;
+	list-style-type: none;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #f4f4f4;
+	padding: 20px;
+}
+
+#navbar ul li a.current, #navbar ul li a:hover {
+	color: #f7c08a;
+	background-color: #454545;
+}
+
+#showcase {
+	background-image: url('../img/showcase.jpg');
+	background-size: cover;
+	background-position: center center;
+	min-height: 600px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 160px;
+}
+
+#showcase h2 {
+	font-size: 4em;
+	color: white;
+	padding-bottom: 10px;
+}
+
+#showcase h2 strong {
+	color: #f7c08a;
+}
+
+#showcase h3 {
+	color: white;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+#showcase-btn {
+	color: white;
+	background-color: #353535; 
+	margin: 30px auto 10px auto;
+	cursor: pointer;
+}
+
+#showcase-btn:hover {
+	color: #353535;
+	background-color: #f7c08a;
+}
+
+#section-one {
+	width: 100%;
+}
+
+#section-one img {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 400px;
+}
+
+#section-one #the-history {
+	float: right;
+	width: 50%;
+	text-align: center;
+	background-color: #353535;
+	padding: 50px 30px;
+}
+
+#section-one #the-history h4 {
+	padding-bottom: 20px;
+	font-size: 1.6em;
+	color: white;
+}
+
+#section-one #the-history h4 strong {
+	padding-top: 40px;
+	color: #f7c08a;
+}
+
+#section-one #the-history p {
+	color: white;
+	margin: 0 auto;
+}
+
+#section-one #the-history-btn {
+	color: #353535;
+	background-color: #f9f9f9; 
+	margin: 40px auto 10px auto;
+	cursor: pointer;
+}
+
+#section-one #the-history-btn:hover {
+	background-color: #f7c08a;
+}
+
+#section-two {
+	clear: both;
+}
+
+.section-two-box {
+	float: left;
+	width: 33.333%;
+	text-align: center;
+	color: #353535;
+	background-color: #f4f4f4;
+	padding: 50px 40px 60px 40px;
+}
+
+.section-two-box:nth-of-type(2) {
+	background-color: #f7c08a;
+}
+
+.section-two-box h5 {
+	font-size: 1.2em;
+	padding: 10px 0 20px 0;
+}
+
+.section-two-box p {
+
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	color: white;
+	background-color: #454545;
+	text-align: center;
+	padding: 30px;
+}
