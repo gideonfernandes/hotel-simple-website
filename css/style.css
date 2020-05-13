@@ -47,3 +47,48 @@
 	color: #f7c08a;
 	background-color: #454545;
 }
+
+#showcase {
+	background-image: url('../img/showcase.jpg');
+	background-size: cover;
+	background-position: center center;
+	min-height: 600px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 160px;
+}
+
+#showcase h2 {
+	font-size: 4em;
+	color: white;
+	padding-bottom: 10px;
+}
+
+#showcase h2 strong {
+	color: #f7c08a;
+}
+
+#showcase h3 {
+	color: white;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+#showcase #showcase-btn {
+	width: 190px;
+	height: 50px;
+	display: block;
+	color: white;
+	background-color: #353535; 
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.1em;
+	padding: 12px 10px 10px 10px;
+	margin: 30px auto 10px auto;
+	cursor: pointer;
+}
+
+#showcase #showcase-btn:hover {
+	color: #353535;
+	background-color: #f7c08a;
+}
