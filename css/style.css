@@ -142,3 +142,38 @@
 #section-one #the-history-btn:hover {
 	background-color: #f7c08a;
 }
+
+#section-two {
+	clear: both;
+}
+
+.section-two-box {
+	float: left;
+	width: 33.333%;
+	text-align: center;
+	color: #353535;
+	background-color: #f4f4f4;
+	padding: 40px 40px 60px 40px;
+}
+
+.section-two-box:nth-of-type(2) {
+	background-color: #f7c08a;
+}
+
+.section-two-box h5 {
+	font-size: 1.2em;
+	padding: 15px 0 30px 0;
+}
+
+.section-two-box p {
+
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	color: white;
+	background-color: #454545;
+	text-align: center;
+	padding: 30px;
+}
