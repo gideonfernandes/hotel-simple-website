@@ -1,4 +1,4 @@
-/* Reset Styling */
+/* Reset and Global Styling */
 * {
 	margin: 0;
 	padding: 0;
@@ -12,6 +12,17 @@
 	margin: 0 auto;
 	padding: 0 20px;
 	overflow: auto;
+}
+
+.btn {
+	width: 190px;
+	height: 50px;
+	display: block; 
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.1em;
+	padding: 12px 10px 10px 10px;
+	cursor: pointer;
 }
 
 /* Home Page Styling */
@@ -74,21 +85,60 @@
 	font-weight: 500;
 }
 
-#showcase #showcase-btn {
-	width: 190px;
-	height: 50px;
-	display: block;
+#showcase-btn {
 	color: white;
 	background-color: #353535; 
-	text-align: center;
-	text-decoration: none;
-	font-size: 1.1em;
-	padding: 12px 10px 10px 10px;
 	margin: 30px auto 10px auto;
 	cursor: pointer;
 }
 
-#showcase #showcase-btn:hover {
+#showcase-btn:hover {
 	color: #353535;
+	background-color: #f7c08a;
+}
+
+#section-one {
+	width: 100%;
+}
+
+#section-one img {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 400px;
+}
+
+#section-one #the-history {
+	float: right;
+	width: 50%;
+	text-align: center;
+	background-color: #353535;
+	padding: 50px 30px;
+}
+
+#section-one #the-history h4 {
+	padding-bottom: 20px;
+	font-size: 1.6em;
+	color: white;
+}
+
+#section-one #the-history h4 strong {
+	padding-top: 40px;
+	color: #f7c08a;
+}
+
+#section-one #the-history p {
+	color: white;
+	margin: 0 auto;
+}
+
+#section-one #the-history-btn {
+	color: #353535;
+	background-color: #f9f9f9; 
+	margin: 40px auto 10px auto;
+	cursor: pointer;
+}
+
+#section-one #the-history-btn:hover {
 	background-color: #f7c08a;
 }
