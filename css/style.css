@@ -229,7 +229,8 @@ main {
 	background-color: #f7c08a;
 	border-radius: 10px;
 	min-height: 140px;
-	margin: 30px 0
+	margin: 30px 0;
+	opacity: 0.9;
 }
 
 #guests-say .guest-comment img {
@@ -246,4 +247,72 @@ main {
 	color: #353535;
 	text-align: left;
 	margin: 25px 30px 25px 0px;
+}
+
+/* Contact Page Styling */
+#main-contact {
+	background-color: white;
+}
+
+#contact {
+	padding: 25px 0 35px 0;
+}
+
+#contact h2 {
+	font-size: 2.5em;
+	color: #353535;
+	margin-bottom: 12px;
+}
+
+#contact .form-group label {
+	display: block;
+	margin: 15px 0 5px 0;
+	color: #252525;
+}
+
+#contact .form-group input, 
+#contact .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact .form-group textarea {
+	height: 200px;
+}
+
+#contact .form-group input:focus, 
+#contact .form-group textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+#contact #form-btn {
+	color: white;
+	background-color: #353535; 
+	margin: 30px auto 10px auto;
+	cursor: pointer;
+	border: 0;
+	margin: 30px 0 10px 0;
+}
+
+#contact #form-btn:hover {
+	color: #353535;
+	background-color: #f7c08a;
+}
+
+#informations {
+	background-color: #353535;
+	padding: 45px 0;
+}
+
+#informations .information-box {
+	float: left;
+	width: 33.333%;
+	color: white;
+	text-align: center;
+}
+
+#informations .information-box h3 {
+	margin: 12px 0 24px 0;
 }
