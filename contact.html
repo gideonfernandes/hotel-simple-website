@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<title>Hotel GF | Fale Conosco</title>
+</head>
+<body>
+	<header>
+		<nav id="navbar">
+			<div class="container">
+				<h1 id="logo">HGF</h1>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">Sobre</a></li>
+					<li><a href="contact.html" class="current">Contato</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main id="main-contact">
+		<div class="container">
+			<section id="contact">
+				<h2><strong class="primary-text">Fale</strong> Conosco</h2>
+				<p>Por favor, preencha o formulário abaixo para contato</p>
+				<form action="process.php">
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" name="name">
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" name="email">
+					</div>
+					<div class="form-group">
+						<label for="message">Mensagem</label>
+						<textarea name="message"></textarea>
+					</div>
+					<button type="submit" id="form-btn" class="btn">Enviar Mensagem</button>
+				</form>
+			</section>
+		</div>
+		<section id="informations">
+			<div class="container">
+				<div class="information-box">
+					<i class="fas fa-hotel fa-3x"></i>
+					<h3>Localização</h3>
+					<p>50 Main st, Boston MA</p>
+				</div>
+				<div class="information-box">
+					<i class="fas fa-phone fa-3x"></i>
+					<h3>Telefone</h3>
+					<p>(617) 555-5555</p>
+				</div>
+				<div class="information-box">
+					<i class="fas fa-envelope fa-3x"></i>
+					<h3>Email</h3>
+					<p>frontdesk@hotelbt.co</p>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>Hotel GF © 2020, All Rights Reserved</p>
+	</footer>
+</body>
+</html>

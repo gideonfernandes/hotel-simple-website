@@ -14,6 +14,10 @@
 	overflow: auto;
 }
 
+.primary-text {
+	color: #f7c08a;
+}
+
 .btn {
 	width: 190px;
 	height: 50px;
@@ -124,7 +128,6 @@
 
 #section-one #the-history h4 strong {
 	padding-top: 40px;
-	color: #f7c08a;
 }
 
 #section-one #the-history p {
@@ -165,10 +168,6 @@
 	padding: 10px 0 20px 0;
 }
 
-.section-two-box p {
-
-}
-
 footer {
 	clear: both;
 	width: 100%;
@@ -176,4 +175,144 @@ footer {
 	background-color: #454545;
 	text-align: center;
 	padding: 30px;
+}
+
+/* About Page Styling */
+main {
+	background-color: #f4f4f4;
+}
+
+#about {
+	border: 1px solid #ccc;
+}
+
+#about-content {
+	float: left;
+	width: 50%;
+	padding-top: 25px;
+}
+
+#about-content h2 {
+	font-size: 2.5em;
+	color: #353535;
+}
+
+#about-content p {
+	color: #252525;
+	padding: 8px 0;
+}
+
+#about img {
+	float: right;
+	display: block;
+	width: 40%;
+	border-radius: 40%;
+	padding: 30px 20px;
+}
+
+#guests-say {
+	clear: both;
+	min-height: 600px;
+	background: url('../img/test-bg.jpg') center center/cover;
+	padding: 80px 0;
+}
+
+#guests-say h3 {
+	text-align: center;
+	color: white;
+	font-size: 2.7em;
+}
+
+#guests-say .guest-comment {
+	clear: both;
+	width: 100%;
+	background-color: #f7c08a;
+	border-radius: 10px;
+	min-height: 140px;
+	margin: 30px 0;
+	opacity: 0.9;
+}
+
+#guests-say .guest-comment img {
+	display: block;
+	float: left;
+	width: 10%;
+	border-radius: 50%;
+	margin: 15px 30px;
+}
+
+#guests-say .guest-comment p {
+	float: right;
+	width: 80%;
+	color: #353535;
+	text-align: left;
+	margin: 25px 30px 25px 0px;
+}
+
+/* Contact Page Styling */
+#main-contact {
+	background-color: white;
+}
+
+#contact {
+	padding: 25px 0 35px 0;
+}
+
+#contact h2 {
+	font-size: 2.5em;
+	color: #353535;
+	margin-bottom: 12px;
+}
+
+#contact .form-group label {
+	display: block;
+	margin: 15px 0 5px 0;
+	color: #252525;
+}
+
+#contact .form-group input, 
+#contact .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact .form-group textarea {
+	height: 200px;
+}
+
+#contact .form-group input:focus, 
+#contact .form-group textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+#contact #form-btn {
+	color: white;
+	background-color: #353535; 
+	margin: 30px auto 10px auto;
+	cursor: pointer;
+	border: 0;
+	margin: 30px 0 10px 0;
+}
+
+#contact #form-btn:hover {
+	color: #353535;
+	background-color: #f7c08a;
+}
+
+#informations {
+	background-color: #353535;
+	padding: 45px 0;
+}
+
+#informations .information-box {
+	float: left;
+	width: 33.333%;
+	color: white;
+	text-align: center;
+}
+
+#informations .information-box h3 {
+	margin: 12px 0 24px 0;
 }
