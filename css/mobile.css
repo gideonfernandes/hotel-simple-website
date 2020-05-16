@@ -31,7 +31,13 @@
 }
 
 #section-one {
-	height: 460px;
+	height: 380px;
+}
+
+@media screen and (max-width: 560px) {
+	#section-one {
+		height: 460px;
+	}
 }
 
 #section-one #img {

@@ -260,6 +260,14 @@ main {
 	margin: 25px 30px 25px 0px;
 }
 
+@media screen and (max-width: 980px) {
+	#guests-say .guest-comment p {
+		font-size: 15px;
+		float: right;
+		margin: 15px 15px 15px 0px;
+	}
+}
+
 /* Contact Page Styling */
 #main-contact {
 	background-color: white;
