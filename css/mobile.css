@@ -1,0 +1,117 @@
+/* Home Page Styling */
+#navbar #logo {
+	float: none;
+	text-align: center;
+	padding: 15px 0 15px 0;
+}
+
+#navbar ul {
+	float: none;
+
+}
+
+#navbar ul li {
+	float: none;
+	border-bottom: 1px solid #454545;
+}
+
+#navbar ul li a {
+	padding: 6px;
+}
+
+#showcase {
+	min-height: 340px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+#showcase h2 {
+	font-size: 3.5em;
+	padding-bottom: 8px;
+}
+
+#section-one {
+	height: 380px;
+}
+
+@media screen and (max-width: 560px) {
+	#section-one {
+		height: 460px;
+	}
+}
+
+#section-one #img {
+	display: none;
+}
+
+#section-one #the-history {
+	float: none;
+	width: 100%;
+	padding: 25px 30px;
+}
+
+#section-one #the-history p {
+	font-size: 15px;
+}
+
+.section-two-box {
+	float: none;
+	width: 100%;
+	padding: 50px 40px 60px 40px;
+}
+
+/* About Page Styling */
+#about-content {
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+
+#about img {
+	float: none;
+	width: 60%;
+	padding: 30px 20px;
+	margin: 0 auto;
+}
+
+#guests-say h3 {
+	font-size: 2.4em;
+}
+
+#guests-say .guest-comment {
+	min-height: 150px;
+	margin: 25px 0;
+	padding: 20px;
+}
+
+#guests-say .guest-comment img {
+	float: none;
+	width: 120px;
+	margin: 10px auto;
+}
+
+#guests-say .guest-comment p {
+	float: none;
+	width: 90%;
+	margin: 25px auto;
+	text-align: center;
+	font-size: 15px;
+}
+
+/* Contact Page Styling */
+#informations {
+	background-color: #353535;
+	padding: 20px 0;
+}
+
+#informations .information-box {
+	float: none;
+	width: 100%;
+	border-bottom: 1px solid #454545;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+#informations .information-box:last-child {
+	border-bottom: none;
+}
